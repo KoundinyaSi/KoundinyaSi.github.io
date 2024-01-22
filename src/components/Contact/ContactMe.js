@@ -224,7 +224,7 @@ const ContactMe = () => {
           </a>
           <a
             className="social-link"
-            href="https://github.com/KoundinyaSi"
+            href="https://github.com/KoundinyaSi/KoundinyaSi.github.io"
             target="blank"
           >
             <FaGithub />

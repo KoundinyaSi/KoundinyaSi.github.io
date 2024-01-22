@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div id="about">
       <div className="about-text">
-        <h1><FcAbout /> A small <span className="intro">intro</span> about myself</h1>
+        <h1 id="about-heading"><FcAbout /> A small <span className="intro">intro</span> about myself</h1>
         <p className="about-text-desc">
           I'm a highly skilled Web Developer with expertise in React.js,
           dedicated to creating dynamic and user-friendly web applications.

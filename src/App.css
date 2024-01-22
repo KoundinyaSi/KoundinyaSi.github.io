@@ -530,14 +530,40 @@ textarea.form-control:enabled {
   }
   #navbar-elem {
     width: 90%;
+    margin-top: 30%;
+    /* margin-bottom: 30%; */
   }
   .hero-div {
     height: 80vh;
+    margin-top: 10%;
     flex-direction: column-reverse;
+  }
+  .hero-heading{
+    font-size: 2.5rem;
+  }
+  #hero-name{
+    font-size: 2.5rem;
+  }
+  #about{
+    height: 130vh;
+  }
+  #about-heading, #about-heading > svg, .hero-heading > svg, #timeline-heading > svg, #projects-header > svg, #contact-heading > svg{
+    font-size: 2rem;
   }
   .about-text-desc,
   .skills-div {
     width: 100%;
+  }
+  .skill-div{
+    width: 40%;
+    margin-top: 2%;
+  }
+
+  .skills-div{
+    flex-wrap: wrap;
+  }
+  .intro{
+    font-size: 2rem;
   }
   #projects {
     height: 250vh;
@@ -553,7 +579,8 @@ textarea.form-control:enabled {
   }
   .project-card-div {
     align-self: center;
-    width: 50%;
+    width: 80%;
+    margin-top: 1%;
   }
   .project-card-img {
     height: 12vh;
@@ -569,14 +596,22 @@ textarea.form-control:enabled {
     justify-content: center;
   }
   #contact-form {
-    width: 80%;
+    width: 90%;
+  }
+  .input-group-text{
+    font-size: smaller;
+    width: 30%;
+  }
+  input.form-control, textarea.form-control{
+    font-size: smaller;
   }
   #contact-image {
     height: 50vh;
     width: 80%;
   }
   .social-link > svg {
-    font-size: 3rem;
+    font-size: 2.3rem;
+    margin: 0.8em;
     /* width: 20%; */
   }
 }

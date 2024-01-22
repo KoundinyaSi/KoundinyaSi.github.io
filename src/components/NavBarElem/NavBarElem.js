@@ -5,7 +5,7 @@ const NavBarElem = () => {
   return (
     <Navbar
       id="navbar-elem"
-      // expand="sm"
+      expand="sm"
       // className="bg-body-tertiary"
       sticky="top"
     >
